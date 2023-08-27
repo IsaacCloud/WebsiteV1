@@ -4,6 +4,9 @@
 
 body {
 margin: 0%;
+cursor:default;
+background-image: url("images/background.jpg");
+
 }
 
 a {
@@ -26,10 +29,20 @@ h1 {
 
 }
 
+h4 {
+    text-shadow: 1px 1px 3px #000000;
+
+}
+
+article {
+    max-width: 210px;
+}
+
 .title {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 100px;
     padding-left: 50px;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .aboutme-container {
@@ -38,6 +51,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     font-size: 50px;
+    border: 0px solid red;
 }
 
 .aboutme-headline {
@@ -64,6 +78,7 @@ h1 {
     align-items: center;
     padding: 5%;
     margin: 0px;
+    border: 0px solid red;
 }
 
 .isaac {
@@ -85,11 +100,12 @@ h1 {
 
 .projects {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 0;
+    word-break:normal;
+    border: 0px solid red;
     
 }
 
@@ -115,21 +131,25 @@ h1 {
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
+    text-shadow: 1px 1px 3px #000000;
     margin-top: 100px;
+    border: 0px solid red;
 }
 
 .contact {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
     text-indent: 30px;
     border: 0px solid red;
-    padding: 0;
+    padding: 30;
     margin: 0px;
 }
 
 .contact-icons {
     max-width: 50px;
+    padding: 20px;
+    /* box-shadow: 1px 1px 3px #000000; */
 }
