@@ -9,7 +9,6 @@ background-image: url("images/background.jpg");
 
 }
 
-
 h4 {
     text-shadow: 1px 1px 2px #000000;
 
@@ -44,7 +43,10 @@ article {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     border: 0px solid red;
-    padding: 65px;
+
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 0px;
     margin: -65px;
 }
 
