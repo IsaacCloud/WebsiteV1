@@ -30,7 +30,7 @@ h1 {
 }
 
 h4 {
-    text-shadow: 1px 1px 3px #000000;
+    text-shadow: 1px 1px 2px #000000;
 
 }
 
@@ -42,19 +42,23 @@ article {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 100px;
     padding-left: 50px;
-    text-shadow: 1px 1px 3px #000000;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .aboutme-container {
     font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 50px;
     border: 0px solid red;
 }
 
 .aboutme-headline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     border: 0px solid red;
@@ -131,7 +135,7 @@ article {
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
-    text-shadow: 1px 1px 3px #000000;
+    text-shadow: 1px 1px 2px #000000;
     margin-top: 100px;
     border: 0px solid red;
 }
@@ -151,5 +155,4 @@ article {
 .contact-icons {
     max-width: 50px;
     padding: 20px;
-    /* box-shadow: 1px 1px 3px #000000; */
 }
