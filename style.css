@@ -39,7 +39,7 @@ article {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    align-items: ;
+    align-items: center;
     flex-wrap:wrap;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
@@ -134,11 +134,11 @@ article {
     font-size: 50px;
     text-indent: 30px;
     border: 0px solid red;
-    padding: 30;
+    padding: 130;
     margin: 0px;
 }
 
 .contact-icons {
-    max-width: 50px;
+    max-width: 35px;
     padding: 20px;
 }
